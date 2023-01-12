@@ -3,8 +3,8 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>My React Blog</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/create">New Blog</a>            
+                <a className="nav-link nav-link-fade-up" href="/">Home</a>
+                <a className="nav-link nav-link-fade-up" href="/create">New Blog</a>            
             </div>
         </nav>
     );
